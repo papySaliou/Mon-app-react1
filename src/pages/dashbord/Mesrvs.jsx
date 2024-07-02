@@ -9,10 +9,10 @@ export const Mesrvs = () => {
   const heure = new Date().toLocaleTimeString();
 
   return (
-    <div className="p-12">
+    <div className="p-12 mx-5">
       <TopNav />
       <div className="flex justify-between items-center my-10">
-        <h2 className="text-3xl font-bold text-sky-500">Mes Rendez-vous</h2>
+        <h2 className="text-3xl font-bold text-slate-800">Mes Rendez-vous</h2>
         <button>
           <FaCirclePlus className="text-3xl font-bold text-sky-500" />
         </button>
@@ -23,11 +23,11 @@ export const Mesrvs = () => {
             <td class="border-b-2 border-slate-600">
               <div className="flex gap-5 py-4 items-center">
                 <span>
-                  <FaRegUserCircle className="text-5xl text-sky-600" />
+                  <FaRegUserCircle className="text-4xl text-slate-800" />
                 </span>
                 <div className="flex flex-col">
                   <span>{date}</span>
-                  <span className="text-sky-600 font-semibold">A.latyr</span>
+                  <span className="text-sky-500 font-semibold">Saliou Diouf</span>
                 </div>
               </div>
             </td>
@@ -35,7 +35,7 @@ export const Mesrvs = () => {
               <div className="flex items-end flex-col">
                 <span>{heure}</span>
                 <button>
-                  <span className="text-sky-600 text-2xl font-semibold">
+                  <span className="text-slate-800 text-2xl font-semibold">
                     <IoIosArrowForward />
                   </span>
                 </button>
@@ -46,11 +46,11 @@ export const Mesrvs = () => {
             <td class="border-b-2 border-slate-600">
               <div className="flex gap-5 py-4 items-center">
                 <span>
-                  <FaRegUserCircle className="text-5xl text-sky-600" />
+                  <FaRegUserCircle className="text-4xl text-slate-800" />
                 </span>
                 <div className="flex flex-col">
                   <span>{date}</span>
-                  <span className="text-sky-600 font-semibold">A.latyr</span>
+                  <span className="text-sky-500 font-semibold">Pape Saliou</span>
                 </div>
               </div>
             </td>
@@ -58,7 +58,7 @@ export const Mesrvs = () => {
               <div className="flex items-end flex-col">
                 <span>{heure}</span>
                 <button>
-                  <span className="text-sky-600 text-2xl font-semibold">
+                  <span className="text-slate-800 text-2xl font-semibold">
                     <IoIosArrowForward />
                   </span>
                 </button>
@@ -69,11 +69,11 @@ export const Mesrvs = () => {
             <td class="border-b-2 border-slate-600">
               <div className="flex gap-5 py-4 items-center">
                 <span>
-                  <FaRegUserCircle className="text-5xl text-sky-600" />
+                  <FaRegUserCircle className="text-4xl text-slate-800" />
                 </span>
                 <div className="flex flex-col">
                   <span>{date}</span>
-                  <span className="text-sky-600 font-semibold">A.latyr</span>
+                  <span className="text-sky-500 font-semibold">Pape Saliou</span>
                 </div>
               </div>
             </td>
@@ -81,7 +81,7 @@ export const Mesrvs = () => {
               <div className="flex items-end flex-col">
                 <span>{heure}</span>
                 <button>
-                  <span className="text-sky-600 text-2xl font-semibold">
+                  <span className="text-slate-800 text-2xl font-semibold">
                     <IoIosArrowForward />
                   </span>
                 </button>
@@ -92,11 +92,11 @@ export const Mesrvs = () => {
             <td class="border-b-2 border-slate-600">
               <div className="flex gap-5 py-4 items-center">
                 <span>
-                  <FaRegUserCircle className="text-5xl text-sky-600" />
+                  <FaRegUserCircle className="text-4xl text-slate-800" />
                 </span>
                 <div className="flex flex-col">
                   <span>{date}</span>
-                  <span className="text-sky-600 font-semibold">A.latyr</span>
+                  <span className="text-sky-500 font-semibold">Diouf Saliou</span>
                 </div>
               </div>
             </td>
@@ -104,7 +104,7 @@ export const Mesrvs = () => {
               <div className="flex items-end flex-col">
                 <span>{heure}</span>
                 <button>
-                  <span className="text-sky-600 text-2xl font-semibold">
+                  <span className="text-slate-800 text-2xl font-semibold">
                     <IoIosArrowForward />
                   </span>
                 </button>
