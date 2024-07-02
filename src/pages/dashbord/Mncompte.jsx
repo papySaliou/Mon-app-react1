@@ -14,7 +14,7 @@ export const Mncompte = () => {
     </div>
     <div class="p-3 flex w-2/5 mx-auto justify-between items-center border rounded-xl border-slate-400">
         <p class="flex flex-col">
-            <span class="text-2xl font-semibold text-sky-600">Dr Ngoor Djiguane</span>
+            <span class="text-2xl font-semibold text-sky-600">Dr DIOUF</span>
             <span> Cardiologue</span></p>
             <svg stroke="currentColor" fill="currentColor" 
             stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-sky-600" 
@@ -24,7 +24,7 @@ export const Mncompte = () => {
               </div>
               <div class="my-3 px-5 py-3 flex w-2/5 mx-auto justify-between
                items-center border rounded-xl border-slate-400">
-                <p><span>Adresse :</span><span>Touba, Darou salam</span></p>
+                <p><span>Adresse :</span><span>Diamniadio, Rufisque</span></p>
                 <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" 
                 stroke-linecap="round" stroke-linejoin="round" height="1em" 
                 width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M12 20h9"></path>
@@ -32,7 +32,7 @@ export const Mncompte = () => {
                 <path d="m15 5 3 3"></path></svg></div><div class="my-5 px-5 py-3 
                 flex w-2/5 mx-auto justify-between items-center border rounded-xl
                  border-slate-400">
-                  <p><span>Telephone :</span><span>+221 78 453 04 33</span></p>
+                  <p><span>Telephone :</span><span>+221 78 569 99 21</span></p>
                   <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" 
                   stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" 
                   xmlns="http://www.w3.org/2000/svg"><path d="M12 20h9"></path>
@@ -40,7 +40,7 @@ export const Mncompte = () => {
                   <path d="m15 5 3 3"></path></svg></div><div class="my-5 px-5 py-3 
                   flex w-2/5 mx-auto justify-between items-center border rounded-xl
                    border-slate-400"><p><span>Adression e-mail :</span>
-                   <span>ngoor.djiguane24@dalal-jamm.sn</span></p>
+                   <span>papydiouf@gmail.sn</span></p>
                    <svg stroke="currentColor" fill="none" stroke-width="2" 
                    viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -57,6 +57,7 @@ export const Mncompte = () => {
                         <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path>
                         <path d="m15 5 3 3"></path></svg></div>
                         <div class="flex justify-center ">
+                          
                           <button class="w-2/5 py-3 text-white duration-150 bg-sky-500 
                           rounded-lg hover:bg-sky-900 active:shadow-lg">Enregistrer</button>
                           </div></div></div>
