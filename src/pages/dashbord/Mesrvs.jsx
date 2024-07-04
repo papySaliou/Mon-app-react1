@@ -3,6 +3,7 @@ import { TopNav } from "../../components/TopNav";
 import { FaCirclePlus } from "react-icons/fa6";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaRegUserCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 export const Mesrvs = () => {
     
   const date = new Date().toDateString();
@@ -46,11 +47,13 @@ export const Mesrvs = () => {
             <td class="border-b-2 border-slate-600">
               <div className="flex gap-5 py-4 items-center">
                 <span>
+                  
                   <FaRegUserCircle className="text-4xl text-slate-800" />
+                
                 </span>
                 <div className="flex flex-col">
                   <span>{date}</span>
-                  <span className="text-sky-500 font-semibold">Pape Saliou</span>
+                  <span className="text-sky-500 font-semibold"><Link to="">Pape Saliou</Link></span>
                 </div>
               </div>
             </td>
@@ -59,7 +62,7 @@ export const Mesrvs = () => {
                 <span>{heure}</span>
                 <button>
                   <span className="text-slate-800 text-2xl font-semibold">
-                    <IoIosArrowForward />
+                    <Link to=""><IoIosArrowForward /></Link>
                   </span>
                 </button>
               </div>

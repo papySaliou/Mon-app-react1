@@ -17,7 +17,7 @@ export const Navbar = () => {
               <Link to="/rendezvous">MES RENDEZ-VOUS</Link>
             </li>
             <li>
-              <Link to="/moncompte">MON COMPTE</Link>
+              <Link to="/dashbord/compte">MON COMPTE</Link>
             </li>
           </ul>
         </nav>

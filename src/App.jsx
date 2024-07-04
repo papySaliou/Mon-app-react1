@@ -15,6 +15,9 @@ import { Accueils } from "./pages/dashbord/Accueils";
 import { Mesrvs } from "./pages/dashbord/Mesrvs";
 import { Mespatients } from "./pages/dashbord/Mespatients";
 import { Mncompte } from "./pages/dashbord/Mncompte";
+import { Patient } from "./pages/dashbord/Patient";
+import { Ajoutpatient } from "./pages/auth/Ajoutpatient";
+
 
 
 
@@ -41,6 +44,8 @@ function App() {
             <Route path="/dashbord/rv" element={<Mesrvs />} />
             <Route path="/dashbord/patients" element={<Mespatients />} />
             <Route path="/dashbord/compte" element={<Mncompte />} />
+            <Route  path="/dashbord/patient" element={<Patient/>}/>
+            <Route  path="/dashbord/ajoutpatient" element={<Ajoutpatient/>}/>
           </Route>
 
         </Routes>
