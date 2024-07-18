@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 import { FaUser, FaUserLarge } from "react-icons/fa6";
@@ -50,3 +51,16 @@ export const Ajoutpatient = () => {
     </div>
   )
 }
+=======
+import React from 'react'
+
+import { FaUser } from "react-icons/fa6";
+{/* <FaUser /> */}
+
+
+export const Ajoutpatient = () => {
+  return (
+    <div>Ajoutpatient</div>
+  )
+}
+>>>>>>> 4b82636bdc7dc9af992838a8194007cffa7ba090
