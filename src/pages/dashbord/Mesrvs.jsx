@@ -15,7 +15,8 @@ export const Mesrvs = () => {
       <div className="flex justify-between items-center my-10">
         <h2 className="text-3xl font-bold text-slate-800">Mes Rendez-vous</h2>
         <button>
-          <FaCirclePlus className="text-3xl font-bold text-sky-500" />
+          <Link to="/dashbord/ajoutrv">
+          <FaCirclePlus className="text-3xl font-bold text-sky-500" /></Link>
         </button>
       </div>
       <table class="table-auto w-full border-slate-500">
@@ -53,16 +54,17 @@ export const Mesrvs = () => {
                 </span>
                 <div className="flex flex-col">
                   <span>{date}</span>
-                  <span className="text-sky-500 font-semibold"><Link to="">Pape Saliou</Link></span>
+                  <span className="text-sky-500 font-semibold">
+                    <Link to="/dashbord/detailsrv">Pape Saliou</Link></span>
                 </div>
               </div>
             </td>
             <td class="border-b-2  border-slate-600">
               <div className="flex items-end flex-col">
-                <span>{heure}</span>
+                <Link to="/dashbord/detailsrv"><span>{heure}</span></Link>
                 <button>
-                  <span className="text-slate-800 text-2xl font-semibold">
-                    <Link to=""><IoIosArrowForward /></Link>
+                  <span className="text-sky-600 text-2xl font-semibold">
+                    <Link to="/dashbord/detailsrv"><IoIosArrowForward /></Link>
                   </span>
                 </button>
               </div>

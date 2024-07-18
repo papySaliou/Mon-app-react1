@@ -2,6 +2,7 @@ import React from "react";
 import { FaBell } from "react-icons/fa6";
 import user from "../assets/user.png";
 import { FiSearch } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 export const TopNav = () => {
   return (
@@ -20,7 +21,8 @@ export const TopNav = () => {
       
       <div className="flex gap-5 items-center">
         <FaBell className="text-4xl" />
-        <img src={user} className="mx-5 w-12 ml-2" alt="" />
+        <Link to="/dashbord/compte">
+        <img src={user} className="mx-5 w-12 ml-2" alt="" /></Link>
       </div>
     </div>
   );

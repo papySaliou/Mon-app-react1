@@ -17,6 +17,8 @@ import { Mespatients } from "./pages/dashbord/Mespatients";
 import { Mncompte } from "./pages/dashbord/Mncompte";
 import { Patient } from "./pages/dashbord/Patient";
 import { Ajoutpatient } from "./pages/auth/Ajoutpatient";
+import { Ajoutrv } from "./pages/auth/Ajoutrv";
+import { Detailsrv } from "./pages/auth/Detailsrv";
 
 
 
@@ -46,6 +48,8 @@ function App() {
             <Route path="/dashbord/compte" element={<Mncompte />} />
             <Route  path="/dashbord/patient" element={<Patient/>}/>
             <Route  path="/dashbord/ajoutpatient" element={<Ajoutpatient/>}/>
+            <Route  path="/dashbord/ajoutrv" element={<Ajoutrv/>}/>
+            <Route  path="/dashbord/detailsrv" element={<Detailsrv/>}/>
           </Route>
 
         </Routes>
