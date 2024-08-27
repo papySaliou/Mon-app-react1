@@ -17,11 +17,9 @@ import { Mespatients } from "./pages/dashbord/Mespatients";
 import { Mncompte } from "./pages/dashbord/Mncompte";
 import { Patient } from "./pages/dashbord/Patient";
 import { Ajoutpatient } from "./pages/auth/Ajoutpatient";
-<<<<<<< HEAD
 import { Ajoutrv } from "./pages/auth/Ajoutrv";
 import { Detailsrv } from "./pages/auth/Detailsrv";
-=======
->>>>>>> 4b82636bdc7dc9af992838a8194007cffa7ba090
+// import { UserProvider } from "./UserContext";
 
 
 
@@ -30,6 +28,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      {/* <UserProvider> */}
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Accueil />} />
@@ -39,6 +38,7 @@ function App() {
             <Route path="/deconnexion" element={<Deconnexion />} />
             <Route path="/inscrire" element={<Inscrire />} />
             <Route path="*" element={<NoPage />} />
+            
           </Route>
 
            {/* dashboard */}
@@ -49,18 +49,16 @@ function App() {
             <Route path="/dashbord/rv" element={<Mesrvs />} />
             <Route path="/dashbord/patients" element={<Mespatients />} />
             <Route path="/dashbord/compte" element={<Mncompte />} />
-            <Route  path="/dashbord/patient" element={<Patient/>}/>
+            <Route  path="/dashbord/patient/:id" element={<Patient/>}/>
             <Route  path="/dashbord/ajoutpatient" element={<Ajoutpatient/>}/>
-<<<<<<< HEAD
             <Route  path="/dashbord/ajoutrv" element={<Ajoutrv/>}/>
-            <Route  path="/dashbord/detailsrv" element={<Detailsrv/>}/>
-=======
->>>>>>> 4b82636bdc7dc9af992838a8194007cffa7ba090
+            <Route  path="/dashbord/detailsrv/:id" element={<Detailsrv/>}/>
+            
           </Route>
 
         </Routes>
 
-        
+        {/* </UserProvider> */}
       </BrowserRouter>
     </>
   );
